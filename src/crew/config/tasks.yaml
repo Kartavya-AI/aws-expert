@@ -1,0 +1,30 @@
+aws_query_task:
+  description: >
+    Query AWS knowledge base for specific information about {topic}.
+    Focus on official AWS documentation, best practices, and configuration details.
+    Provide accurate and up-to-date AWS service information.
+  expected_output: >
+    Detailed AWS information including service descriptions, configuration steps,
+    best practices, and any relevant technical specifications for {topic}.
+
+search_task:
+  description: >
+    Perform comprehensive web search about {topic} to gather additional information,
+    recent updates, community insights, and real-world implementation examples.
+    Focus on credible sources and current information.
+  expected_output: >
+    Comprehensive search results with key insights, recent developments,
+    and practical examples related to {topic} from reliable web sources.
+
+report_task:
+  description: >
+    Create a comprehensive technical report combining AWS official information
+    and web research findings about {topic}. Structure the report with clear
+    sections, actionable recommendations, and practical implementation guidance.
+  expected_output: >
+    Well-structured technical report with:
+    - Executive summary
+    - Detailed technical information
+    - Best practices and recommendations
+    - Implementation steps
+    - Relevant examples and use cases
