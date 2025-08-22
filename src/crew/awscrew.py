@@ -5,7 +5,7 @@ from crewai import Agent, Task, Crew, Process, LLM
 from crewai.project import CrewBase, agent, crew, task
 from crewai_tools import SerperDevTool
 from dotenv import load_dotenv
-from tools.aws import SimplifiedAWSKnowledgeTool
+from src.crew.tools.aws import SimplifiedAWSKnowledgeTool
 
 load_dotenv()
 
