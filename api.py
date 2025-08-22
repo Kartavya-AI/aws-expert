@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 # Add the crew module to the Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'aws-expert', 'src', 'crew'))
 
-from awscrew import AWSCrew
+from src.crew.awscrew import AWSCrew
 
 # Create FastAPI app
 app = FastAPI(
