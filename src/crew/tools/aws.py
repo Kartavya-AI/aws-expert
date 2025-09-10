@@ -4,6 +4,7 @@ from typing import Any, Dict, List, Optional, Type
 from pydantic import BaseModel, Field
 from crewai.tools import BaseTool
 import logging
+from crewai_tools import WorkingAWSKnowledgeTool
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
